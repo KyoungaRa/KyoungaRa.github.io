@@ -6,7 +6,7 @@
   </head>
   <body>
 
-    <span> this is test pdfjs</span>
+    <span> this is test pdfjs local</span>
 
   <div id="pageContainer" class="pdfViewer singlePageView"></div>
         <script id="script" type="module">
@@ -21,7 +21,8 @@ if (!pdfjsLib.getDocument || !pdfjsViewer.PDFPageView) {
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.0.269/pdf.worker.min.mjs";
 
-const DEFAULT_URL = "https://www.genesis.com/uk/documents/legal/terms-conditions_genesis_account_uk_en.pdf";
+// const DEFAULT_URL = "https://www.genesis.com/uk/documents/legal/terms-conditions_genesis_account_uk_en.pdf";
+const DEFAULT_URL = "terms-conditions_genesis_account_uk_en.pdf";
 const PAGE_TO_VIEW = 1;
 const SCALE = 1.0;
 

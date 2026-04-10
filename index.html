@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1,viewport-fit=cover">
     <meta name="next-head-count" content="2">
     <script defer="" type="text/javascript"
         src="https://static.zuora.com/Resources/libs/hosted/1.3.0/zuora-min.js"></script>
@@ -4231,6 +4231,10 @@
 
         body {
             color: #05141F
+            height:100vh;
+            height:-webkit-fill-available;
+            overflow:auto;
+            -webkit-overflow-scrolling: touch;
         }
 
         #video_player {
